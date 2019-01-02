@@ -1,0 +1,16 @@
+.title-wrap{
+    width: 80%;
+    margin-left: 20%;
+    flex-wrap: wrap;
+
+    .title-block{
+        margin: 20px;
+    }
+
+    .content-holder{
+        width: 98%;
+        height: 2000px;
+        border-radius: 20px;
+        background: white;
+    }
+}

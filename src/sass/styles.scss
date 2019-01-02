@@ -1,0 +1,19 @@
+@import "helpers/settings";
+@import "helpers/tools";
+@import "helpers/animations";
+@import "helpers/generics";
+@import "helpers/elements";
+@import "components/header"; 
+@import "components/body";
+@import "components/footer";
+
+html, body{
+    height: 101%;
+}
+
+body{
+    background: darkslategrey;
+    padding: 0;
+    margin: 0;
+}
+

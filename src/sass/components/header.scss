@@ -1,0 +1,33 @@
+.main-nav{
+    background: greenyellow;
+    height: 100%;
+
+    ul{
+        padding: 20px;
+
+        li{
+            padding: 20px;
+            list-style: none;
+
+            .highlight{
+                color: black;
+                font-size: 30px;
+                font-weight: bold;
+
+                @media(max-width: 1450px){
+                    font-size: 25px;
+                }
+            }
+
+            a{
+                color: grey;
+                text-decoration: none;
+                font-size: 25px;
+
+                @media(max-width: 1450px){
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
